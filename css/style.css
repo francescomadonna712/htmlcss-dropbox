@@ -110,8 +110,138 @@ height: 95vh;
 }
 /* big box trova un partner */
 
-.find-partner{
+.main-box2{
+display: flex;
+justify-content: center;
+padding-top: 5rem;
 width: 100%;
 height: 60vh;
 background-color: chocolate;
+}
+
+.left-img{
+
+background-color: aqua;
+width: 45%;
+height: 400px;
+}
+
+.right-text{
+    background-color: blue;
+    width: 25%;
+    height: 200px;
+}
+
+.main-box3{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 5rem;
+width: 100%;
+height: 150vh;
+background-color: rgb(210, 30, 126);
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 75%;
+    background-color: aqua;
+
+}
+.main-box3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.card1{
+    position: relative;
+    margin: 0.5rem;
+    width: calc(100% / 3 - 1rem );
+}
+
+.date-link{
+    height: 10rem;
+    width: 70%;
+    background-color: cadetblue;
+}
+/* aziende partner */
+.main-box4{
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+}
+
+.box-left{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: azure;
+}
+
+.box-right{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: azure;
+}
+.box1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: blue
+}
+.box{
+    width: calc(100% / 2);
+}
+/* free-try */
+.main-box5{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    width: 100%;
+    height: 50vh;
+    background-color: chocolate;
+    }
+
+    .text{
+
+    background-color: aqua;
+    width: 45%;
+    height: 200px;
+    }
+
+    .free-try{
+        background-color: blue;
+        width: 25%;
+        height: 200px;
+    }
+
+/* faq */
+.main-box6{
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.faq{
+    background-color: cadetblue;
+    width: 70%;
+    height: 100%;
+}
+/* footer */
+.footer{
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
 }
