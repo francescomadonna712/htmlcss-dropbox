@@ -325,30 +325,123 @@ padding-bottom: 5rem;
     height: 60vh;
     margin-top: 2rem;
 }
-
+/* box left */
 .box-left{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    background-color: bisque;
+}
+.main-box4 img{
+    width:55%;
 }
 
+.box1{
+    display: flex;
+    justify-content: center;
+    background-color: #A2D39B;
+    height:50%;
+    width: calc(100% / 2);
+    border: solid 0.5rem #D1E9CD;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    background-color: #61082B;
+    height:50%;
+    width: calc(100% / 2);
+    
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093CE;
+    height: 50%;
+    width: calc(100% / 2);
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    background-color: #FF1C1C;
+    height: 50%;
+    width: calc(100% / 2);  
+}
+
+/* box right */
 .box-right{
     width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    background-color: bisque;
+    
 }
-.box1{
-    width: 40%;
+
+.box6{
     display: flex;
     justify-content: center;
-    background-color: blue
-}
-.box{
+    background-color: #D5001F;
+    height:50%;
     width: calc(100% / 2);
+}
+
+.box7{
+    display: flex;
+    justify-content: center;
+    background-color: #B4D0E7;
+    height:50%;
+    width: calc(100% / 2);
+    
+}
+.box8{
+    display: flex;
+    justify-content: center;
+    background-color: #0D2481;
+    height: 50%;
+    width: calc(100% / 2);
+}
+   
+.box9{
+    display: flex;
+    justify-content: center;
+    background-color: #FFD830;
+    height: 50%;
+    width: calc(100% / 2);  
+}
+
+
+/* box centrale */
+.box-centrale{
+    width: 40%;
+    justify-content: center;
+    background-color: #F5F5F5
+}
+.center-img{
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 100%;
+   margin-bottom: 2rem;
+}
+.box-centrale hr{
+    width: 20%;
+    margin-bottom: 2rem;
+    margin-left:2rem;
+}
+
+.center-img img{
+    padding-top: 2rem;
+    height: 90%;
+}
+
+.box-centrale p{
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.box-centrale span{
+    padding-left: 2rem;
 }
 /* free-try */
 .main-box5{
