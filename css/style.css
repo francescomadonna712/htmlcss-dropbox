@@ -76,10 +76,16 @@ height: 95vh;
     font-size: 55px;
 }
 
-.img{
-    height: 78%;
-    width:65% ;
-    background-color: blanchedalmond;
+.jumbo-img{
+   height: 78%;
+   width:65% ;
+  
+   
+}
+
+.jumbo-img img{
+    height: 100%;
+
 }
         /******* piani di pagamento *******/
 
@@ -238,17 +244,20 @@ height: 65vh;
 
 .left-img{
 
-background-color: aqua;
-width: 45%;
+width: 40%;
 height: 450px;
+}
+.left-img img{
+    padding-left: 10rem;
+    height: 100%;
 }
 
 .right-text{
 margin-top: 3rem;
-padding-right: 5rem;
-padding-left: 2rem;
+padding-right: 18rem;
 
-width: 25%;
+
+width: 35%;
 height: 290px;
 }
 
