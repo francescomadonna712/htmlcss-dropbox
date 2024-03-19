@@ -494,23 +494,43 @@ padding-bottom: 5rem;
 /* faq */
 .main-box6{
     width:100%;
-    height: 60vh;
+    height: 70vh;
 }
 
 .faq{
     margin: 0 auto;
-    background-color: cadetblue;
+    ;
     width: 70%;
     height: 100%;
 }
 
 .faq h2{
-font-size: 50px;
-padding:3rem 0 ;
+    font-size: 50px;
+    padding:3rem 0 ;
 }
+
 .faq hr{
     border: solid grey 0.1px
 }
+
+.faq h4{
+    display: inline-block;
+    font-size: 20px;
+    padding:2rem 0 ;
+}
+.fa-chevron-down{
+    padding-left: 25rem;
+}
+
+.fa-arrow-down:hover {
+    display: block;
+
+}
+.faq p{
+    display: none;
+    padding-right: 15rem;
+}
+
 /* footer */
 .footer{
     background-color: black;
