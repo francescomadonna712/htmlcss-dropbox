@@ -285,15 +285,24 @@ height: 200vh;
 padding-bottom: 5rem;
 
 }
-
+/* inizio card */
 .card{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     height: 70%;
-    background-color: aqua;
-
+    margin-bottom: 5rem;
+    
 }
+.card h3{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.card-img img{
+    height: 50%;
+    width: 100%;
+}
+
 .main-box3 h2{
     display: flex;
     justify-content: center;
@@ -301,11 +310,12 @@ padding-bottom: 5rem;
 }
 
 .card1{
+    
     position: relative;
     margin: 0.5rem;
     width: calc(100% / 3 - 1rem );
 }
-
+/* fine card */
 .date-link{
     padding-top: 5rem;
     height: 10rem;
