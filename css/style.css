@@ -14,7 +14,7 @@ flex-wrap: wrap;
 justify-content: center;
 background-color: #B4D0E7;
 width: 100%;
-height: 95vh;
+height: 150vh;
 }
 /* nav */
 .nav-bar{
@@ -30,13 +30,13 @@ height: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 27%;
+    width: 35%;
 }
 .right-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 27%;
+    width: 30%;
 }
 .right-nav button{
     font-size: 18px;
@@ -52,11 +52,11 @@ height: 95vh;
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    width:70% ;
+    width:75% ;
     height: 80%;
 }
 .jumbotron h1{
-    font-size: 85px;
+    font-size: 65px;
     height: 35%;
 }
 .left-box button{
@@ -78,13 +78,11 @@ height: 95vh;
 
 .jumbo-img{
    height: 78%;
-   width:65% ;
-  
-   
+   width:65%;
 }
-
 .jumbo-img img{
     height: 100%;
+    width: 100%;
 
 }
         /******* piani di pagamento *******/
@@ -92,9 +90,9 @@ height: 95vh;
 .main-box1{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    
     width: 100%;
-    height: 200vh;
+    height: 270vh;
 }
 .business-plan{
     margin-top: 5rem;
@@ -104,7 +102,7 @@ height: 95vh;
 .check{
     display: flex;
     justify-content: space-between;
-    width:30%;
+    width:45%;
 }
 
 .business-plan h2{
@@ -117,14 +115,14 @@ height: 95vh;
     justify-content: space-between;
     margin-top: 3rem;
     width: 100%;
-    height: 65%;
+    height: 70%;
 }
 
 .plan{
     border:solid 0.5px #D7D7D9;
     padding-top:0.5rem;
     width: calc(100% / 3 - 40px);
-    height:100%;
+    height:90%;
    
 }
 .plan hr{
@@ -136,11 +134,12 @@ height: 95vh;
     color: #0061FF;
 }
 .plan button{
+    font-size: 16px;
     text-align: center;
     color: white;
-    margin:1.5rem 0;
+    margin:1rem 0;
     padding: 0.8rem 0;
-    width: 15rem;
+    width: 11rem;
     background-color: #0061FF;
     border-style: none;
 }
@@ -193,7 +192,7 @@ height: 95vh;
 /* plane 3 */
 .plan3{
     position: relative;
-    margin-top: 3rem;
+    
     border:solid 0.5px #D7D7D9;
     height: 17%;
   
@@ -237,18 +236,18 @@ height: 95vh;
 .main-box2{
 display: flex;
 justify-content: center;
-padding-top: 5rem;
+margin-top: 2rem;
 width: 100%;
 height: 65vh;
 }
 
 .left-img{
 
-width: 40%;
+width: 45%;
 height: 450px;
 }
 .left-img img{
-    padding-left: 10rem;
+    padding-left:5rem;
     height: 100%;
 }
 
@@ -281,8 +280,8 @@ flex-wrap: wrap;
 justify-content: center;
 padding-top: 5rem;
 width: 100%;
-height: 200vh;
-padding-bottom: 5rem;
+height: 250vh;
+
 
 }
 /* inizio card */
@@ -310,17 +309,16 @@ padding-bottom: 5rem;
 }
 
 .card1{
-    
     position: relative;
     margin: 0.5rem;
     width: calc(100% / 3 - 1rem );
 }
 /* fine card */
 .date-link{
-    padding-top: 5rem;
+    
     height: 10rem;
     width: 70%;
-    padding-right: 40rem;
+    padding-right: 20rem;
 }
 .date-link h3{
     font-size: 40px;
@@ -342,7 +340,11 @@ padding-bottom: 5rem;
     flex-wrap: wrap;
     justify-content: left;
 }
-.main-box4 img{
+.box-img img{
+    filter: invert(1);
+    width:55%;
+}
+.center-img img{
     width:55%;
 }
 
@@ -441,6 +443,7 @@ padding-bottom: 5rem;
 }
 
 .center-img img{
+    
     padding-top: 2rem;
     height: 90%;
 }
@@ -494,7 +497,7 @@ padding-bottom: 5rem;
 /* faq */
 .main-box6{
     width:100%;
-    height: 95vh;
+    height: 90vh;
 }
 
 .faq{
@@ -529,7 +532,7 @@ padding-bottom: 5rem;
 
 .question:hover .fa-chevron-down{
    transform: rotate(180deg);
-   padding-left:10rem;
+   padding-left: 10rem;
 }
 
 .answer{
@@ -541,17 +544,17 @@ padding-bottom: 5rem;
 /* footer */
 .footer{
     background-color: black;
-    padding-top: 5rem;
+    padding-top: 3rem;
     width:100%;
-    height: 60vh;
+    height: 50vh;
 }
 .box-footer{
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
     color: white;
-    width: 70%;
+    width: 100%;
 }
 .box-footer h2{
     font-size: 25px;
