@@ -460,7 +460,7 @@ padding-bottom: 5rem;
     justify-content: center;
     padding-top: 4rem;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     
     }
 
@@ -494,7 +494,7 @@ padding-bottom: 5rem;
 /* faq */
 .main-box6{
     width:100%;
-    height: 70vh;
+    height: 95vh;
 }
 
 .faq{
@@ -519,16 +519,23 @@ padding-bottom: 5rem;
     padding:2rem 0 ;
 }
 .fa-chevron-down{
-    padding-left: 25rem;
+    padding-left: 10rem;
 }
 
-.fa-arrow-down:hover {
+.question:hover .answer{
     display: block;
-
+    padding-right: 15rem;
 }
-.faq p{
+
+.question:hover .fa-chevron-down{
+   transform: rotate(180deg);
+   padding-left:10rem;
+}
+
+.answer{
     display: none;
     padding-right: 15rem;
+    padding-bottom:1rem ;
 }
 
 /* footer */
