@@ -14,7 +14,7 @@ flex-wrap: wrap;
 justify-content: center;
 background-color: #B4D0E7;
 width: 100%;
-height: 150vh;
+height: 110vh;
 }
 /* nav */
 .nav-bar{
@@ -53,11 +53,12 @@ height: 150vh;
     display: flex;
     flex-wrap: wrap;
     width:75% ;
-    height: 80%;
+    height: 65%;
 }
 .jumbotron h1{
-    font-size: 65px;
+    font-size: 90px;
     height: 35%;
+    margin-bottom: 1rem;
 }
 .left-box button{
     padding: 0.7rem;
@@ -67,8 +68,8 @@ height: 150vh;
     border-style: none;
 }
 .left-box{
-     width: 35%;
-     padding-right: 5rem;
+     width: 30%;
+     padding-right: 4rem;
      height: 65%;
 }
 .fa-arrow-down{
@@ -77,12 +78,13 @@ height: 150vh;
 }
 
 .jumbo-img{
-   height: 78%;
-   width:65%;
+   height: 100%;
+   width:70%;
 }
 .jumbo-img img{
     height: 100%;
     width: 100%;
+   
 
 }
         /******* piani di pagamento *******/
@@ -90,13 +92,13 @@ height: 150vh;
 .main-box1{
     display: flex;
     justify-content: center;
-    
     width: 100%;
-    height: 270vh;
+    height: 230vh;
+    margin-top: 10rem;
 }
 .business-plan{
     margin-top: 5rem;
-    width: 60%;
+    width:60%;
     
 }
 .check{
@@ -115,14 +117,14 @@ height: 150vh;
     justify-content: space-between;
     margin-top: 3rem;
     width: 100%;
-    height: 70%;
+    height: 55%;
 }
 
 .plan{
     border:solid 0.5px #D7D7D9;
     padding-top:0.5rem;
     width: calc(100% / 3 - 40px);
-    height:90%;
+    height:100%;
    
 }
 .plan hr{
@@ -192,7 +194,7 @@ height: 150vh;
 /* plane 3 */
 .plan3{
     position: relative;
-    
+    margin-top: 5rem;
     border:solid 0.5px #D7D7D9;
     height: 17%;
   
@@ -201,6 +203,7 @@ height: 150vh;
     border-bottom:solid 0.5px #D7D7D9;
     text-align: center;
     padding: 0.5rem;
+    
 }
 
 .text-plan3{
@@ -236,7 +239,7 @@ height: 150vh;
 .main-box2{
 display: flex;
 justify-content: center;
-margin-top: 2rem;
+
 width: 100%;
 height: 65vh;
 }
